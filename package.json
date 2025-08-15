@@ -1,0 +1,11 @@
+{
+  "name": "project_setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "author": "Navaneesh Karepakula",
+  "license": "ISC",
+  "description": ""
+}
