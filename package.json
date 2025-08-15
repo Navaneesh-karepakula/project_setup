@@ -2,10 +2,17 @@
   "name": "project_setup",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "node src/index.js"
+    "test": "nodemon src/index.js"
   },
   "author": "Navaneesh Karepakula",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "prettier": "^3.6.2"
+  }
 }
